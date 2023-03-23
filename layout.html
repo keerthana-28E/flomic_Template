@@ -1,0 +1,574 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        box-sizing: border-box;
+       }
+        .head {
+        background-color: black;
+        color:white;
+    }
+    .main{
+        background-color: aqua;
+    }
+        .boxcontainer {
+            width: 80%;
+            margin:auto;
+            padding:5px;
+
+        }
+        .box1{
+            width:48%;
+            display:inline-block;
+
+    }
+        .box2{
+           
+            text-align: right;
+        }
+        .image{
+            width:25%;
+            display: inline-block;
+            padding-top:30px;
+            
+        }
+        .nav{
+            width:70%;
+            display:inline-block;
+            text-align: right;
+            vertical-align: top;
+            padding:60px 20px;
+        }
+        span{
+            padding:0px 5px;
+        }
+        .table{
+            display: inline-block;
+           
+        }
+        .td1{
+            width:100%;
+            background-color: gainsboro;
+            text-align: center;
+            display: inline-block;
+        }
+        .td2{
+            width:100%;
+            background-color:white;
+            text-align: center;
+            color:gray;
+            display: inline-block;
+        }
+        .td3{
+            width:100%;
+            background-color: greenyellow;
+            text-align: center;
+            display: inline-block;
+            padding:8px 0px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="head">
+        <div class="boxcontainer">
+            <div class="box1">
+                <span>link1 |</span>
+                <span>link2 |</span>
+                <span>link3 |</span>
+                <span>link4 |</span>
+                <span>link5 |</span>
+            </div>
+            <div class="box1 box2">
+                <span>9840262321</span>
+                <span>keerthanareddy727@gmail.com</span>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="boxcontainer" >
+            <div  class="image">
+                <img src="images/flomic.jpg" style="width:100%;">
+            </div>
+            <div class="nav">
+                <span>HOME</span>
+                <span>PAGES</span>
+                <span>DROPDOWN</span>
+                <span>LINK TEXT</span>
+                <span>LINK TEXT</span>
+            </div>
+        </div>
+    </div>
+    <div  class="head" style="background-image: url(images/Screenshot_2023_0311_120354.png);">
+        <div class="boxcontainer">
+            <div style="width:25%;">
+                <div class="table">
+                    <div class="td1"><h3>QUISQUE VEHICULA URNA AMET</h3></div>
+                    <div class="td2">
+                        <p>ullamcorper mauris sit amet</p>
+                        <p>sed eget ultricies sem</p>
+                        <p>proin quis lacus egestas</p>
+                        <p>adipis cring ornae</p>
+                        <p>donec luctus convallis rhoncus</p>
+                    </div>
+                    <div class="td3">READ MORE >></div>
+                </div>
+            </div>
+            </div style="width:25%;">
+                <div class="table">
+                    <div class="td1"><h3>QUISQUE VEHICULA URNA AMET</h3></div>
+                    <div class="td2">
+                        <p>ullamcorper mauris sit amet</p>
+                        <p>sed eget ultricies sem</p>
+                        <p>proin quis lacus egestas</p>
+                        <p>adipis cring ornae</p>
+                        <p>donec luctus convallis rhoncus</p>
+                    </div>
+                    <div class="td3">READ MORE >></div>
+                </div>
+            </div>
+            </div style="width:25%;">
+                <div class="table">
+                    <div class="td1"><h3>QUISQUE VEHICULA URNA AMET</h3></div>
+                    <div class="td2">
+                        <p>ullamcorper mauris sit amet</p>
+                        <p>sed eget ultricies sem</p>
+                        <p>proin quis lacus egestas</p>
+                        <p>adipis cring ornae</p>
+                        <p>donec luctus convallis rhoncus</p>
+                    </div>
+                    <div class="td3">READ MORE >></div>
+                </div>
+            </div>
+        </div>       
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .fluid {
+            background-color: black;
+            color: white;
+        }
+
+        .box {
+            width: 80%;
+            margin: auto;
+        }
+
+        .boxcontainer {
+            width: 48%;
+            display: inline-block;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .image {
+            width: 23%;
+            display: inline-block;
+            padding-top: 30px;
+
+        }
+
+        .nav {
+            width: 75%;
+            display: inline-block;
+            text-align: right;
+            vertical-align: top;
+            padding: 60px 0px 60px 0px;
+        }
+
+        span {
+            padding: 10px 5px;
+        }
+
+        .table {
+            width: 33%;
+            padding: 15px;
+            display: inline-block;
+            opacity: 0.5;
+        }
+
+        .table:hover {
+            opacity: 1;
+        }
+
+        .td1 {
+            background-color: gainsboro;
+            padding: 20px;
+            color: black;
+            text-align: center;
+        }
+
+        .td2 {
+            background-color: ivory;
+            padding: 5px;
+            color: darkgrey;
+            text-align: center;
+        }
+
+        .td3 {
+            background-color: greenyellow;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        .article {
+            width: 48%;
+            padding: 15px;
+            display: inline-block;
+
+        }
+
+        .sidebar {
+            width: 48%;
+            padding: 15px;
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .content {
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.57);
+            padding: 10px;
+        }
+
+        .smallarticle {
+            width: 28%;
+            display: inline-block;
+            border: solid gainsboro 5px;
+        }
+
+        .card1 {
+            width: 49%;
+            display: inline-block;
+            padding: 10px;
+
+        }
+
+        .card2 {
+            width: 49%;
+            display: inline-block;
+            padding: 10px;
+
+        }
+
+        .orangebox {
+            width: 50%;
+            color: white;
+            background-color: orange;
+            vertical-align: top;
+            display: inline-block;
+            padding: 20px 10px 7px 10px;
+
+        }
+
+        .bluebox {
+            width: 50%;
+            color: white;
+            background-color: skyblue;
+            display: inline-block;
+            vertical-align: top;
+            padding: 20px 10px 7px 10px;
+        }
+
+        .side {
+            width: 70%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .end {
+            width: 50%;
+            display: inline-block;
+            color: darkgrey;
+            vertical-align: top;
+            padding: 0px 5px;
+        }
+
+        .quick {
+            width: 24%;
+            display: inline-block;
+        }
+
+        .keep {
+            width: 25%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 20px 10px;
+        }
+
+        a:hover {
+            background-color: greenyellow;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fluid">
+        <div class="box">
+            <div class="boxcontainer">
+                <span>link1 |</span>
+                <span>link2 |</span>
+                <span>link3 |</span>
+                <span>link4 |</span>
+                <span>link5 |</span>
+            </div>
+            <div class="boxcontainer" style="text-align: right;">
+                <span>9791027716</span>
+                <span>keerthanareddy727@gmail.com</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="box">
+            <div class="image">
+                <img src="images/flomic.jpg">
+            </div>
+            <div class="nav">
+                <div>
+                    <a href="">HOME</a>
+                    <a href="">PAGES</a>
+                    <a href="">DROPDOWN</a>
+                    <a href="">LINKTEXT</a>
+                    <a href="">LINKTEXT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fluid" style="background-image: url(images/Screenshot_2023_0311_120354.png); ">
+        <div class="box" style="padding:50px 0px;">
+            <div class="table">
+                <div>
+                    <div class="td1">
+                        <h4 style="margin: 0px;">QUISQUE VEHICULA URNA AMET</h4>
+                    </div>
+                    <div class="td2">
+                        <p>ullamcorper mauris sit amet</p>
+                        <p>sed eget ultricies sem</p>
+                        <p>proin quis lacus egestas</p>
+                        <p>adipis cring ornae</p>
+                        <p>donec luctus convallis rhoncus</p>
+                    </div>
+                    <div class="td3">
+                        <h5 style="margin:0px;">READ MORE >></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div>
+                    <div class="td1">
+                        <h4 style="margin: 0px;">QUISQUE VEHICULA URNA AMET</h4>
+                    </div>
+                    <div class="td2">
+                        <p>ullamcorper mauris sit amet</p>
+                        <p>sed eget ultricies sem</p>
+                        <p>proin quis lacus egestas</p>
+                        <p>adipis cring ornae</p>
+                        <p>donec luctus convallis rhoncus</p>
+                    </div>
+                    <div class="td3">
+                        <h5 style="margin:0px;">READ MORE >></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div>
+                    <div class="td1">
+                        <h4 style="margin: 0px;">QUISQUE VEHICULA URNA AMET</h4>
+                    </div>
+                    <div class="td2">
+                        <p>ullamcorper mauris sit amet</p>
+                        <p>sed eget ultricies sem</p>
+                        <p>proin quis lacus egestas</p>
+                        <p>adipis cring ornae</p>
+                        <p>donec luctus convallis rhoncus</p>
+                    </div>
+                    <div class="td3">
+                        <h5 style="margin:0px;">READ MORE >></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="box">
+            <div class="article">
+                <div>
+                    <h4>MAECENAS LIBERO NUNC EU ERAT</h4>
+                </div>
+                <div style="background-image: url(images/Screenshot_2023_0311_120354.png);">
+                    <div style="height:300px;"></div>
+                    <div class="content">
+                        <h4 style="margin:0px;">URNA SIT AMET PULIVINAR</h4>
+                        <P>Aenean semper elementum tellus, ut placerat leo.quisque vehicula, urna sit amet....</P>
+                        <button
+                            style="background-color:rgba(0, 0, 0, 0.57); color:greenyellow;border-color:greenyellow;">
+                            <h5 style="margin:0px;">READ MORE >></h5>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div>
+                    <h4>ETAM EROS NULLA POSUERES</h4>
+                </div>
+                <div>
+                    <div>
+                        <div class="smallarticle">
+                            <img src="images/Screenshot_2023_0311_120354.png">
+                        </div>
+                        <div class="side">
+                            <h4 style="margin:0px 0px 5px 0px;">PHASELLUS MASSA FELIS IN</h4>
+                            <h6 style="margin:0;">By <span style="color:greenyellow;">A Name</span> Friday, 6 April 2045
+                            </h6>
+                            <p style="margin:5px 0px;">Aenean semper elementum tellus, ut placerat leo. quisque
+                                vehicula, urna sit amet....</p>
+                            <button
+                                style="border:solid rgb(62, 174, 45) 2px;color:rgb(62, 174, 45);padding:5px;background-color: rgba(255, 255, 255, 0.08);">
+                                <h5 style="margin:0px;">READ MORE >></h5>
+                            </button>
+                        </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="smallarticle"><img src="images/Screenshot_2023_0311_120354.png"></div>
+                        <div class="side">
+                            <h4 style="margin:0px 0px 5px 0px">PHASELLUS MASSA FELIS IN</h4>
+                            <h6 style="margin:0;">By <span style="color:greenyellow;">A Name</span> Friday, 6 April 2045
+                            </h6>
+                            <p style="margin:5px 0px;">Aenean semper elementum tellus, ut placerat leo. quisque
+                                vehicula, urna sit amet....</p>
+                            <button
+                                style="border:solid rgb(62, 174, 45) 2px;color:rgb(62, 174, 45);padding:5px;background-color: rgba(255, 255, 255, 0.08);">
+                                <h5 style="margin:0px;">READ MORE >></h5>
+                            </button>
+                        </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="smallarticle"><img src="images/Screenshot_2023_0311_120354.png"></div>
+                        <div class="side">
+                            <h4 style="margin:0px 0px 5px 0px;">PHASELLUS MASSA FELIS IN</h4>
+                            <h6 style="margin:0px;">By <span style="color:greenyellow;">A Name</span> Friday, 6 April
+                                2045</h6>
+                            <p style="margin:5px 0px;">Aenean semper elementum tellus, ut placerat leo. quisque
+                                vehicula, urna sit amet....</p>
+                            <button
+                                style="border:solid rgb(62, 174, 45) 2px;color:rgb(62, 174, 45);padding:5px;background-color: rgba(255, 255, 255, 0.08);">
+                                <h5 style="margin:0px;">READ MORE >></h5>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: rgba(211, 211, 211, 0.187);">
+        <div class="box">
+            <div style="text-align: center;padding-top:10px;">
+                <h2 style="margin-bottom: 0%;">DONEC FACILISIS VOLUTPAT LIGULA NEC EGESTAS</h2>
+                <h6 style="margin:0;">Integer varius enim id augue faucibus mattis.pellenteseque sclerisque nibh eu mi
+                    convallis,ac feugiat nulla tincidunt.</h6>
+            </div>
+            <div style="padding:20px 0px;">
+                <div class="card1">
+                    <img src="images/Placeholder.jpeg" style="width:50%; display: inline-block;">
+                    <div class="orangebox">
+                        <h4 style="margin-top: 0%;">QUISQUE VEHICULA URNA SIT AMET PULVINAR DAPIBUS</h4>
+                        <button
+                            style="padding:2px; background-color: orange; border: solid white 2px;color: white;cursor: pointer;">
+                            <p style="margin: 0%;">Read more >></p>
+                        </button>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="images/Placeholder.jpeg" style="width:50%; display: inline-block;">
+                    <div class="bluebox">
+                        <h4 style="margin-top: 0%;">QUISQUE VEHICULA URNA SIT AMET PULVINAR DAPIBUS</h4>
+                        <button
+                            style="padding:2px; background-color:skyblue; border: solid white 2px;color: white;cursor: pointer;">
+                            <p style="margin: 0%;">Read more >></p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: rgba(0, 0, 0, 0.747);">
+        <div class="box">
+            <div class="end">
+                <h4>LOREM IPSUM DOLOR</h4>
+                <hr>
+                <p>Donec sed ultrices eros. Nulla facilist. Allquam purus urna, porta non faucibus nec, luctus vitae
+                    antae, suspended potenti. Morbi sollicitudin vivera urna, vel auctor purus volutpat vel.</p>
+                <p><i class="fa-solid fa-location-dot"></i>Street Name & Number, Town, Passcode/zip </p>
+                <p><i class="fa-solid fa-phone"></i> +00 (123) 456 7890</p>
+                <p><i class="fa-regular fa-envelope"></i> info@domain.com</p>
+            </div>
+            <div class="quick">
+                <h4 style=" color:darkgrey;">QUICK LINES</h4>
+                <hr>
+                <p><a href="">Home page</a></p>
+                <p><a href="">Blog</a></p>
+                <p><a href="">Gallery</a></p>
+                <p><a href="">Portfolio</a></p>
+                <p><a href="">Contact Us</a></p>
+            </div>
+            <div class="keep">
+                <h4 style=" color:darkgrey;">KEEP IN TOUCH</h4>
+                <hr>
+                <p><input type="email" placeholder="Email"
+                        style="width:100%; background-color: black; border:none; padding:5px;"></p>
+                <button style="color:white;background-color:rgb(62, 174, 45); border:none; padding:5px;">SUBMIT</button>
+                <p style="background-color: black; color:darkgrey; padding:7px;">
+                    <i class="fa-brands fa-facebook "></i>&nbsp;&nbsp;
+                    <i class="fa-brands fa-pinterest"></i>&nbsp;&nbsp;
+                    <i class="fa-brands fa-square-twitter"></i>&nbsp;&nbsp;
+                    <i class="fa-brands fa-square-instagram"></i>&nbsp;&nbsp;
+                    <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;
+                    <i class="fa-brands fa-google"></i>&nbsp;&nbsp;
+                    <i class="fa-solid fa-wifi"></i>&nbsp;&nbsp;
+                </p>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: black;">
+        <div class="box">
+            <div style="color:darkgrey; padding:20px 0px 50px 0px;">Copyright 2015-All Rights Reserved - Flomic</div>
+        </div>
+    </div>
+</body>
+
+</html>
